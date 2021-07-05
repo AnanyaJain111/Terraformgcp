@@ -78,3 +78,13 @@ variable "max_concurrency" {
   description = "Maximum number of concurrent function instances that can be run."
   default     = 1
 }
+
+variable "project_id" {
+    default = "crucial-haiku-298300"
+}
+
+variable "cluster_name" {}
+variable "initial_node_count" {}
+variable "machine_type" {}
+variable "node_count" {}
+variable "location" {}
